@@ -15,7 +15,7 @@ public APLine(int a, int b, int c)
     return slope;
   }
   public boolean isOnLine(double x, double y){
-    if(myA * x + myB * y + myC == 0)
+    if((myA * x + myB * y + myC) == 0.0)
       return true;
     else 
       return false;
