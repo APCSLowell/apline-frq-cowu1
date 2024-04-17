@@ -4,13 +4,13 @@ private double myA
 private double myB
 private double myC;
   
-public APLine(int a, int b, int c)
+public APLine(double a, double b, double c)
   {
     myA = a;
     myB = b;
     myC = c;
 }
-  public double getSlope(int myA, int myB)
+  public double getSlope()
   {
   
     return  -(a/b);
