@@ -1,7 +1,7 @@
 public class APLine
 {
-private double myA
-private double myB
+private double myA;
+private double myB;
 private double myC;
   
 public APLine(double a, double b, double c)
