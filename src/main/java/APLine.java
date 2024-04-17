@@ -12,14 +12,11 @@ public APLine(double a, double b, double c)
 }
   public double getSlope()
   {
-  
-    return  -(a/b);
- 
+    return -(a/b);
   }
   public boolean isOnLine(double x, double y){
     if((myA * x) + (myB * y) + myC) == 0)
       return true;
-    else 
       return false;
   }
 }
